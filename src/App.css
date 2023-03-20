@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,100&display=swap');
+
+
+
+
+
+#app {
+  position: relative;
+}
+
+#main {
+  margin-left: 260px;
+  background-color: #F7FAFF;
+  min-height: 100vh;
+  transition: margin-left 0.6s ease-out;
+}
+
+
+
+
+#main .main-content {
+  padding: 2rem 1.5rem;
+}
+
+#main .main-content .page-title h3 {
+  font-size: 2rem;
+}
+
+#main .main-content .text-subtitle {
+  font-size: 0.9rem;
+}
+
+
+
+
+.App {
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.footer3 {
+  display: flex;
+  color: white;
+
+  justify-content: space-around;
+
+
+}
+
+.footer2 {
+
+
+  background: #086080;
+
+}
+
+h6,
+.h6 {
+  font-size: 0.9rem;
+  color: white;
+}
+
+.flex_dir {
+  margin: 3rem;
+  width: 12rem;
+  height: 10rem;
+
+
+}
+
+.flex_dir a {
+  color: white;
+
+}
+
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 0 solid #DFE3E7;
+  border-radius: 0.267rem;
+}
+
+.divider {
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  margin: 1rem 0;
+}
+
+body {
+  margin: 0;
+  font-family: var(--bs-font-sans-serif);
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #727E8C;
+  background-color: #fff;
+}
+
+div {
+  display: block;
+}
+
+button:not(:disabled),
+[type=button]:not(:disabled),
+[type=reset]:not(:disabled),
+[type=submit]:not(:disabled) {
+  cursor: pointer;
+}
+
+.btn.btn-primary {
+  color: #fff;
+}
+
+.float-right {
+  float: right !important;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #3372e8;
+  border-color: #5A8DEE;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 0;
+  color: #212529;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+  /* background-color: transparent; */
+  border: 1px solid transparent;
+  padding: 0.375rem 1.75rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.divider .divider-text:before,
+.divider .divider-text:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 5rem;
+  border-top: 1px solid #DFE3E7;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem !important;
+}
+
+.divider {
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  margin: 1rem 0;
+}
+
+.divider .divider-text {
+  position: relative;
+  display: inline-block;
+  padding: 0 1rem;
+  background-color: #FFF;
+}
+
+.divider .divider-text:before,
+.divider .divider-text:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 9999px;
+  border-top: 1px solid #DFE3E7;
+}
+
+.divider .divider-text:before {
+  right: 100%;
+}
+
+.divider .divider-text:after {
+  left: 100%;
+}
+
+.divider.divider-left .divider-text {
+  left: 0;
+  float: left;
+  padding-left: 0;
+}
+
+.divider.divider-left-center .divider-text {
+  left: -25%;
+}
+
+.divider.divider-right-center .divider-text {
+  left: 25%;
+}
+
+.divider.divider-right .divider-text {
+  float: right;
+  padding-right: 0;
+}
+
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex: 1 0 100%;
+  flex-wrap: wrap;
+  margin-top: calc(var(--bs-gutter-y) * -1);
+  margin-right: calc(var(--bs-gutter-x) / -2);
+  margin-left: calc(var(--bs-gutter-x) / -2);
+}
+
+
+col-sm-6 {
+  flex: 0 0 auto;
+  width: 50%;
+}
+
+
+.btn .badge {
+  border-radius: 50%;
+  margin-left: 5px;
+}
+
+.btn .badge.bg-transparent {
+  background-color: rgba(255, 255, 255, 0.25) !important;
+  color: #fff;
+}
+
+/** 2.4 Buttons **/
+.btn i,
+.btn svg {
+  width: 16px;
+  height: 16px;
+}
+
+.btn.icon {
+  padding: 0.4rem 0.6rem;
+}
+
+.btn.icon svg {
+  width: 16px;
+  height: 16px;
+}
+
+.btn.icon.icon-left svg {
+  margin-right: 3px;
+}
+
+.btn.icon.icon-right svg {
+  margin-left: 3px;
+}
+
+.btn.btn-outline-white {
+  color: #fff;
+  border-color: #fff;
+}
+
+.btn.btn-outline-white:hover {
+  color: #333;
+  background-color: #fff;
+}
+
+.btn.btn-primary {
+  color: #fff;
+}
+
+.btn.btn-secondary {
+  color: #fff;
+}
+
+.btn.btn-success {
+  color: #fff;
+}
+
+.btn.btn-danger {
+  color: #fff;
+}
+
+.btn.btn-warning {
+  color: #fff;
+}
+
+.btn.btn-info {
+  color: #fff;
+}
+
+.btn.btn-dark {
+  color: #fff;
+}
+
+.btn.btn-light {
+  color: #fff;
+}
+
+.btn.btn-link {
+  color: #fff;
+}
+
+.btn-group:not(.dropdown) .btn:not([class*=btn-]) {
+  border: 1px solid #DFE3E7;
+}
+
+.btn-group>.btn {
+  border-radius: 0.267rem;
+}
+
+.buttons .btn {
+  margin: 0 10px 10px 0;
+}
+
+.btn-md {
+  padding: 10px 16px;
+  font-size: 15px;
+  line-height: 16px
+}
+
+.btn-google {
+  color: #545454;
+  background-color: #ffffff;
+  box-shadow: 0 1px 2px 1px #ddd;
+  /* font-size:small ; */
+}
+
+
+.header_socials {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  gap: 0.6rem;
+  position: auto;
+  /* left: 3rem;
+  bottom: rem; */
+
+}
+
+.header_socials::after {
+  content: "";
+  width: 1px;
+  height: 2rem;
+  background: var(--color-primary);
+}
+
+
+
+.navbar {
+  --bs-navbar-padding-x: 0;
+  --bs-navbar-padding-y: 0.5rem;
+  --bs-navbar-color: #e9ecef;
+  --bs-navbar-hover-color: rgba(0, 0, 0, 0.7);
+  --bs-navbar-disabled-color: rgba(0, 0, 0, 0.3);
+  --bs-navbar-active-color: #e9ecef;
+  --bs-navbar-brand-padding-y: 0.3125rem;
+  --bs-navbar-brand-margin-end: 1rem;
+  --bs-navbar-brand-font-size: 1.25rem;
+  --bs-navbar-brand-color: #e9ecef;
+}
+
+.navbar-toggler {
+  color: rgb(8, 96, 128);
+}
+
+.navbar-brand {
+  margin-left: 1rem;
+
+}
+
+.navbar-brand2 {
+  margin-right: 1rem;
+  border-radius: 2rem;
+}
+
+.img2 {
+  border-radius: 2rem;
+
+}

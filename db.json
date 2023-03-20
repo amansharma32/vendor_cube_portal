@@ -1,0 +1,87 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "productcategory": "Leanne Graham",
+      "productsubcategory": "Bret",
+      "productname": "Sincere@april.biz",
+      "productdescription": "Kulas Light",
+      "gstrate": "Apt. 556",
+      "uom": "Gwenborough",
+      "hsnnumber": "92998-3874",
+      "stockpresent": "77",
+      "lng": "81.1496",
+      "phone": "1-770-736-8031 x56442",
+      "website": "hildegard.org",
+      "company": {
+        "productcategory": "Romaguera-Crona",
+        "catchPhrase": "Multi-layered client-server neural-net",
+        "bs": "harness real-time e-markets"
+      },
+      "productrate": "56"
+    },
+    {
+      "id": 2,
+      "productcategory": "Ervin Howell",
+      "productsubcategory": "Antonette",
+      "productname": "Shanna@melissa.tv",
+      "productdescription": "Victor Plains",
+      "gstrate": "gstrate 879",
+      "uom": "Wisokyburgh",
+      "hsnnumber": "90566-7771",
+      "stockpresent": "-43.9509",
+      "lng": "-34.4618",
+      "phone": "010-692-6593 x09125",
+      "website": "anastasia.net",
+      "company": {
+        "productcategory": "Deckow-Crist",
+        "catchPhrase": "Proactive didactic contingency",
+        "bs": "synergize scalable supply-chains"
+      },
+      "productrate": "2"
+    },
+    {
+      "id": 3,
+      "productcategory": "Clementine Bauch",
+      "productsubcategory": "Samantha",
+      "productname": "Nathan@yesenia.net",
+      "productdescription": "Douglas Extension",
+      "gstrate": "gstrate 847",
+      "uom": "McKenziehaven",
+      "hsnnumber": "59590-4157",
+      "stockpresent": "-68.6102",
+      "lng": "-47.0653",
+      "phone": "1-463-123-4447",
+      "website": "ramiro.info",
+      "company": {
+        "productcategory": "Romaguera-Jacobson",
+        "catchPhrase": "Face to face bifurcated interface",
+        "bs": "e-enable strategic applications"
+      }
+    },
+    {
+      "productcategory": "dsfdfs",
+      "productsubcategory": "sfadsaas",
+      "productname": "sfsd",
+      "productdescription": "sfsd",
+      "gstrate": "sds",
+      "hsnnumber": "sfffe",
+      "stockpresent": "th",
+      "productrate": "21",
+      "id": 4,
+      "uom": "err"
+    },
+    {
+      "productcategory": "",
+      "productsubcategory": "",
+      "productname": "",
+      "productdescription": "",
+      "gstrate": "",
+      "uom": "",
+      "hsnnumber": "",
+      "stockpresent": "",
+      "productrate": "",
+      "id": 5
+    }
+  ]
+}
