@@ -3,6 +3,7 @@ import { Navbar } from "react-bootstrap";
 
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 import LogIn from "./LogIn";
+import PageNotFound from "./PageNotFound";
 import Registration from "./Registration";
 
 const LoginRoute = () => {
@@ -14,7 +15,9 @@ const LoginRoute = () => {
       <Routes>
         <Route path="/registration" element={<Registration/>}></Route>
 
-        <Route path="/logIn" element={<LogIn />}></Route>
+        <Route path="/logIn" element={<LogIn />}></Route>  
+        {/* <Route path="/pageNotFound" element={<PageNotFound />}></Route>   */}
+         
       </Routes>
 
       {/* </BrowserRouter> */}

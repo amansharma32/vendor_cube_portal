@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import Apk from './component/Sidebar/Apk';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Route } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,7 +15,7 @@ root.render(
   {/* <BrowserRouter> */}
 
 
-   
+
     {/* <App/> */}
     <Apk/>
   {/* </BrowserRouter> */}

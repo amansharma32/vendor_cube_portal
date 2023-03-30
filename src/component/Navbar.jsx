@@ -57,6 +57,15 @@ const Navbar = () => {
                 Vendor Portal
               </NavLink>
             </li>
+                  
+
+            <li className="nav-item ">
+              <NavLink className="nav-link text-white" to="/logout">
+               Logout
+              </NavLink>
+            </li>
+                  
+
             <a className="navbar-brand2 " href="#">
               <img className="img2" src={pv} width="40" height="40" alt="" />
               <div class="form-group"></div>

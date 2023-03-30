@@ -23,6 +23,7 @@ const AppRoutes = () => {
         <Route path="/deliveredOrder" element={<DeliveredOrder />}></Route>
         <Route path="/inventory" element={<Inventory />}></Route>
         <Route path="/addProduct" element={<AddProduct />}></Route>
+        {/* <Route path="*" element={<PageNotFound/>}></Route> */}
 
         <Route path="/editProduct/:id" element={<EditProduct />}></Route>
         <Route path="/user/:id" element={<User />}></Route>

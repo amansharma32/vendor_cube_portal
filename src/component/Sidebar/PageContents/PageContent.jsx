@@ -6,6 +6,7 @@ const PageContent = () => {
     <>
       <div className="parent">
         <AppRoutes />
+        
       </div>
     </>
   );
